@@ -1,10 +1,13 @@
 <?php
 /**
  * Plugin Name: WooCommerce custom tabs
+ * Plugin URI: https://github.com/nemishkor/wc-custom-tabs/
  * Description: Add custom tabs to each WooCommerce product
  * Author: Vitalii Koreniev
  * Version: 1.0.0
  * Text Domain: nemishkor-wc-custom-tabs
+ * License: GPL v3.0
+ * License URI: https://github.com/nemishkor/wc-custom-tabs/blob/master/LICENSE
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
