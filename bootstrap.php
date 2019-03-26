@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/nemishkor/wc-custom-tabs/
  * Description: Add custom tabs to each WooCommerce product
  * Author: Vitalii Koreniev
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: nemishkor-wc-custom-tabs
  * License: GPL v3.0
  * License URI: https://github.com/nemishkor/wc-custom-tabs/blob/master/LICENSE
