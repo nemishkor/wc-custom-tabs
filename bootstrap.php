@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: WooCommerce custom tabs
+ * Plugin Name: WC custom tabs
  * Plugin URI: https://github.com/nemishkor/wc-custom-tabs/
  * Description: Add custom tabs to each WooCommerce product
  * Author: Vitalii Koreniev
