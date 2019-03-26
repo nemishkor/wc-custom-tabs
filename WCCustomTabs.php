@@ -175,12 +175,15 @@ class NemishkorWCCustomTabs {
      * Allows plugins to copy custom fields when a new post (or page) translation is created or synchronizing them. Filter arguments:
      * @param $metas - an array of post metas
      * @param $sync - false when copying custom fields to a new translation, true when synchronizing translations
+     * @return mixed
      */
     public function pll_copy_post_metas($metas, $sync) {
 
         if ($sync && in_array( $this->metaKey, $metas )) {
             unset( $metas[ $this->metaKey ] );
         }
+
+        return $metas;
 
     }
 
