@@ -1,0 +1,57 @@
+.nemishkor-wc-custom-tabs-wrap{
+    padding: 20px;
+}
+
+.nemishkor-wc-custom-tabs-items{
+    margin-bottom: 10px;
+}
+
+.nemishkor-wc-custom-tabs-item{
+    background-color: #fbfbfb;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+* + .nemishkor-wc-custom-tabs-item{
+    margin-top: 20px;
+}
+
+.nemishkor-wc-custom-tabs-item-delete{
+    float: right;
+}
+
+.nemishkor-wc-custom-tabs-item-index{
+    display: inline-block;
+    padding: 3px 16px;
+    background: #dbdbdb;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.nemishkor-wc-custom-tabs-item-index:empty:after{
+    content: "New tab";
+}
+
+.woocommerce_options_panel .nemishkor-wc-custom-tabs-item-title-label{
+    margin: 0 0 10px;
+    float: none;
+    width: 130px;
+    display: inline-block;
+}
+
+.woocommerce_options_panel input[type="text"].nemishkor-wc-custom-tabs-item-title-value{
+    float: none;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.woocommerce_options_panel .nemishkor-wc-custom-tabs-item-content-label{
+    margin: 0 0 10px;
+    float: none;
+    display: inline-block;
+}
+
+.woocommerce_options_panel .nemishkor-wc-custom-tabs-item-content-value{
+    float: none;
+}
